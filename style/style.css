@@ -1,0 +1,306 @@
+body {
+background-color:#11090a;
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+}
+
+a {
+	cursor: pointer;
+}
+
+div#outside_container {
+background:url(../images/background_slice.jpg) repeat-x #000;
+}
+
+div#container {
+background:url(../images/background_main.jpg) no-repeat;
+min-height:800px;
+width:1000px;
+position:relative;
+}
+
+div#container.subpage {
+background:url(../images/background_sub.jpg) no-repeat;
+}
+
+img#logo {
+position:absolute;
+top:58px;
+left:51px;
+}
+
+img#panel {
+position:absolute;
+top:165px;
+left:51px;
+}
+
+ul#nav {
+position:absolute;
+top:138px;
+left:75px;
+margin:0;
+padding:0;
+}
+
+*:first-child+html ul#nav {
+top:142px!important;	
+}
+
+ul#right_nav {
+position:absolute;
+top:138px;
+right:110px;
+margin:0;
+padding:0;
+}
+
+ul#nav li {
+list-style:none;
+font-size:9px;
+text-transform:uppercase;
+display:inline;
+margin:0 10px 0 0;
+padding:0;
+}
+
+ul#right_nav li {
+list-style:none;
+font-size:9px;
+text-transform:uppercase;
+display:inline;
+margin:0 10px 0 0;
+padding:0;
+}
+
+ul#right_nav img {
+margin:0 0 -3px 0;
+padding:0 6px 0 0;
+}
+
+ul#nav li a {
+text-decoration:none;
+color:#fff;
+}
+
+ul#right_nav li a {
+text-decoration:none;
+color:#fff;
+}
+
+ul#nav li a:hover,ul#right_nav li a:hover {
+text-decoration:none;
+color:#fff;
+}
+
+div#container.subpage div#content {
+padding-top:190px!important;
+}
+
+div#content {
+padding-top:435px;
+padding-left:85px;
+padding-bottom:80px;
+width:815px;
+color:#a79295;
+font-size:13px;
+line-height:20px;
+}
+
+div.column3 {
+float:left;
+width:270px;
+}
+
+div#content h2 {
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#dbaa70;
+font-weight:400;
+margin:0 0 20px;
+}
+
+div#content h2 a {
+	color:#dbaa70;
+}
+
+ul.work {
+margin:0;
+padding:0;
+}
+
+ul.work li {
+list-style:none;
+clear:both;
+margin:0;
+padding:0;
+}
+
+ul.work li a {
+color:#e0b882;
+display:block;
+text-decoration:none;
+font-size:10px;
+padding:5px 10px;
+}
+
+ul.work li a img {
+float:left;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+ul.work li a h4 {
+color:#a79295;
+font-weight:400;
+font-size:13px;
+margin:0;
+}
+
+div#footer {
+border-top:1px solid #3f2324;
+color:#674f5d;
+font-size:9px;
+line-height:14px;
+padding:30px 50px 80px;
+}
+
+div#footer img {
+float:left;
+margin-right:10px;
+}
+
+div#footer span {
+display:block;
+float:left;
+width:250px;
+}
+
+div#footer a {
+color:#fff;
+text-decoration:none;
+}
+
+a img {
+border:0;
+}
+
+div.column1,div.column2 {
+float:left;
+width:230px;
+margin-right:30px;
+}
+
+ul.work li a:hover,ul.work li a:hover h4,div#footer a:hover {
+color:#fff;
+}
+
+div#content div.column2 ul {
+list-style-image:url(../images/bullet.jpg);
+list-style-type:none!important;
+}
+
+a {
+color:#fff;
+text-decoration:none;
+}
+
+div#footer span b {
+font-weight:100;
+color:#fff;
+}
+
+div#content.subpage div.column1 {
+width:505px!important;
+padding:0 30px 0 0;
+}
+
+div#content.subpage div.column2 {
+width:220px;
+}
+
+/*PORTFOLIO*/
+
+div#portfolioHolder {
+width:542px;
+float:left;
+height:348px;
+background-image:url(../images/macbook.png);
+background-repeat:no-repeat;
+}
+
+div#content.portfolio div.column2 {
+width:542px!important;
+}
+
+div#content.portfolio div.column1 {
+width:210px!important;
+}
+
+div#portfolioImage {
+width:402px;
+height:250px;
+float:left;
+background-repeat:no-repeat;
+overflow:hidden;
+}
+
+div#portfolioNav {
+width:402px;
+float:left;
+height:66px;
+padding:100px 0 0 0;
+}
+
+div.arrowLeft {
+float:left;
+width:30px;
+height:66px;
+}
+
+div.arrowRight {
+float:right;
+width:30px;
+height:66px;
+}
+
+div#topSpacer {
+width:100px;
+float:right;
+height:18px;
+}
+
+div#leftSpacer {
+float:left;
+width:70px;
+}
+
+div#thumbHolder {
+width:542px;
+float:left;
+}
+
+div.thumb {
+float:left;
+width:106px;
+height:106px;
+text-align:center;
+padding:0 40px 0 0;
+}
+
+div#thumbHolder div.arrowRight {
+padding:20px 0 0 0;
+}
+
+div#thumbHolder div.arrowLeft {
+padding:20px 40px 0 0;
+}
+
+div.thumb h2 {
+font-size:16px;
+font-style:italic;
+}
+
+img {
+border:none!important;	
+}
