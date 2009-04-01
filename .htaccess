@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^portfolio/(.*)? /index.php?section=portfolio&id=$1 [NC,L]
+RewriteRule ^profile/(.*)? /index.php?section=profile [NC,L]
+RewriteRule ^services/(.*)? /index.php?section=services&id=$1 [NC,L]
+RewriteRule ^contact/(.*)? /index.php?section=contact [NC,L]
