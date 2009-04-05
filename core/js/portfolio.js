@@ -54,7 +54,6 @@ function changeDesc(id){
 function thumbUpdate(inc){
 	thumbsOut();
 	setTimeout('thumbData('+inc+')', 500);
-	setTimeout('thumbsIn()', 1000);
 }
 
 function thumbData(inc){
@@ -68,6 +67,7 @@ function thumbData(inc){
 		},
 		onSuccess: function (transport) {
 			$('thumbHolder').update(transport.responseText);
+			setTimeout('thumbsIn()', 1000);
 		}
 	});
 	return false;

@@ -28,7 +28,7 @@
             <li><a href="/contact/">Contact</a></li>                   
 		</ul>
         <ul id="right_nav">
-        	<li><a href="#"><img src="/images/pdf.png" alt="PDF" />Download my Resum&eacute;</a></li>
+        	<li><a href="/download/resume.pdf"><img src="/images/pdf.png" alt="PDF" />Download my Resum&eacute;</a></li>
         </ul>
         <?php include_once('templates/'.$site->getTemplate()).'.inc.php' ?>
 	</div>
