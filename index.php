@@ -3,6 +3,8 @@
 	$site = new site();
 	site::setLink(new mysqli('localhost', 'profile', 'g00gle', 'portfolio'));
 	$site->init($_REQUEST);
+	if($site->getCurClass() == 'services')
+		$site->loadPortfolio(0);
 	$obj = $site->getObj();
 	include_once('core/ajax.php');
 ?>

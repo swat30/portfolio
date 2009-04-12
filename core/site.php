@@ -25,6 +25,7 @@ class site {
 		} else {
 			$this->curClass = 'main';
 			$this->template = 'main';
+			$this->loadPortfolio($get['id']);
 		}
 	}
 	
@@ -56,7 +57,7 @@ class site {
 		site::$dbLink->close();
 	}
 	
-	private function loadPortfolio($id){
+	public function loadPortfolio($id){
 		$this->obj =& new portfolioList();
 		$this->obj->init();
 		$this->obj->setCur($id);
